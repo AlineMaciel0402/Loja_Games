@@ -1,0 +1,12 @@
+package com.generation.lojagames.model;
+
+import jakarta.persistence.Entity;
+import jakarta.pesistence.
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_produtos")
+
+@Id
+@GeneratedValue(startegy=GenerationType.IDENTITY)
+private Long id;
